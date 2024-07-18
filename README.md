@@ -8,20 +8,6 @@ The `widgets_spacing` library provides utility functions and extensions for addi
 - **List Extension:** Add spacing to a list of widgets using an extension method.
 - **Flexible Spacing:** Specify different sizes for gaps between widgets.
 
-## Installation
-
-Add the following line to your `pubspec.yaml` file under dependencies:
-
-```yaml
-dependencies:
-  widgets_spacing:
-    git:
-      url: https://github.com/your_username/widgets_spacing.git
-      ref: main
-```
-
-Then, run `flutter pub get` to fetch the package.
-
 ## Usage
 
 ### Import the Library
@@ -120,16 +106,3 @@ class MyApp extends StatelessWidget {
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Feel free to adjust the installation instructions if your package is already available on `pub.dev`. If it is, you can replace the installation section with the standard `pub.dev` installation instructions:
-
-```
-dependencies:
-  widgets_spacing: ^0.0.2
-```
-
-And then run:
-
-```sh
-flutter pub get
-```
-
-This version of the README should be suitable for publication on `pub.dev`.

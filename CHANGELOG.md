@@ -9,3 +9,7 @@
 ## 0.0.3
 
 - Correct version
+
+### 0.0.4
+
+- Updated README
