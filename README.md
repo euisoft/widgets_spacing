@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: Text('Widgets Spacing Example')),
         body: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: EdgeInsets.all(spacing(4)),
           child: Column(
             children: [
               Text('First'),
@@ -104,5 +104,3 @@ class MyApp extends StatelessWidget {
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Feel free to adjust the installation instructions if your package is already available on `pub.dev`. If it is, you can replace the installation section with the standard `pub.dev` installation instructions:

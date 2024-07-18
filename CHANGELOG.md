@@ -14,6 +14,7 @@
 
 - Updated README
 
-## 0.0.5
+## 0.0.6
 
 - CHANGELOG typo
+- Updated README
