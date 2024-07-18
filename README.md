@@ -123,7 +123,7 @@ Feel free to adjust the installation instructions if your package is already ava
 
 ```
 dependencies:
-  widgets_spacing: ^1.0.0
+  widgets_spacing: ^0.0.2
 ```
 
 And then run:

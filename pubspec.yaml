@@ -1,6 +1,6 @@
 name: widgets_spacing
 description: 'Insert spacing between widgets. Especially for Column and Row in Flutter.'
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/euisoft/widgets_spacing
 
 environment:
