@@ -25,6 +25,14 @@ final double defaultSpacing = spacing(); // 4.0
 final double doubleSpacing = spacing(2); // 8.0
 ```
 
+Constant values
+
+```dart
+kSmallSpacing: 8.0
+kMediumSpacing: 16.0
+kLargeSpacing: 32.0
+```
+
 ### Adding Spacing Between Widgets
 
 Use the `widgetsSpacing` function to add gaps between widgets.
@@ -65,6 +73,14 @@ Column(
 Row(
   children: spacedWidgets,
 );
+```
+
+Number extensions, use `.toSpacing`
+
+```
+2.toSpacing: 8.0
+4.toSpacing: 16.0
+8.toSpacing: 32.0
 ```
 
 ## Example
