@@ -9,6 +9,12 @@ const double kDefaultSpacing = 4.0;
 /// Returns the calculated spacing based on the given size multiplier.
 double spacing([num size = 1]) => size * kDefaultSpacing;
 
+double kSmallSpacing = spacing(2);
+
+double kMediumSpacing = spacing(4);
+
+double kLargeSpacing = spacing(8);
+
 /// Returns a list of widgets with spacing in between each widget.
 ///
 /// [children] is the iterable of widgets to be spaced.
@@ -27,7 +33,7 @@ List<Widget> widgetsSpacing(
 }
 
 /// Extension on `List<Widget?>` to add spacing between non-null widgets.
-extension WidgetsSpacingExt on List<Widget?> {
+extension WidgetsSpacingListExt on List<Widget?> {
   /// Returns a list of non-null widgets with spacing in between each widget.
   ///
   /// [size] is the multiplier for the default spacing.
@@ -39,4 +45,9 @@ extension WidgetsSpacingExt on List<Widget?> {
       size: size,
     );
   }
+}
+
+/// Extension on `num` to convert to spacing.
+extension WidgetsSpacingNumberExt on num {
+  double get toSpacing => spacing(this);
 }

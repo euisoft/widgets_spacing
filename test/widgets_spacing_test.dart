@@ -10,6 +10,18 @@ void main() {
       expect(spacing(2), 8.0);
     });
 
+    test('constant spacing return correct value', () {
+      expect(kSmallSpacing, 8.0);
+      expect(kMediumSpacing, 16.0);
+      expect(kLargeSpacing, 32.0);
+    });
+
+    test('spacing extensions on number should return correct value', () {
+      expect(2.toSpacing, 8.0);
+      expect(4.toSpacing, 16.0);
+      expect(8.toSpacing, 32.0);
+    });
+
     testWidgets('widgetsSpacing inserts gaps correctly',
         (WidgetTester tester) async {
       final widgets = [

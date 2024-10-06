@@ -18,3 +18,8 @@
 
 - CHANGELOG typo
 - Updated README
+
+## 0.0.7
+
+- Added constant spacing
+- Added extension number, convert to spacing
